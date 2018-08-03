@@ -3,34 +3,18 @@ body {
   line-height: 1.8;
   color: #f5f6f7;
 
-  background: url("../img/homebg_2.jpg") center center no-repeat fixed;
-  /* background-position: absolute; */
-  /* background-repeat: no-repeat; */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/homebg_2.jpg") center center no-repeat fixed;
   background-size:  cover;
   background-color: #1b1b1b;
 }
 p {font-size: 16px;}
-/* Navbar */
-.navbar {
-  margin-bottom: 0;
-  background-color: #000000ad;
-  z-index: 9999;
-  border: 0;
-  font: 12px 'Montserrat semi-bold', sans-serif !important;
-  line-height: 1.42857143 !important;
-  letter-spacing: 4px;
-  border-radius: 0;
+
+/* Navbar transparent*/
+.navbar.transparent.navbar-inverse {
+  background: rgba(0,0,0,0.6);
+  border: 1px solid black;
 }
-.navbar li a, .navbar .navbar-brand {
-    color: #f5f6f7 !important;
-}
-.navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #f41e1e !important;
-    background-color: #242424 !important;
-}
-.navbar-default .navbar-toggle {
-    border-color: transparent;
-}
+
 .dropdown-menu {
     background-color: #242424 !important;
 }
