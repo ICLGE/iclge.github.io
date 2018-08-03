@@ -1,3 +1,7 @@
+html {
+  min-height: 100%;
+}
+
 body {
   font: 16px 'Montserrat', sans-serif;
   line-height: 1.8;
@@ -7,6 +11,7 @@ body {
   background-size:  cover;
   background-color: #1b1b1b;
   background-attachment: fixed;
+  max-width: 100%;
 }
 
 #main_page {
