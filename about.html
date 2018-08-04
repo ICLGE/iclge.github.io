@@ -14,7 +14,7 @@
 
     <title>Imperial eSports Society</title>
   </head>
-  <body id="main_page">
+  <body id="about_page">
 
     <!-- Navbar -->
     <nav class="navbar fixed-top transparent navbar-inverse navbar-expand-lg navbar-dark">
@@ -28,11 +28,11 @@
     
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
-          </li>
           <li class="nav-item">
-            <a class="nav-link" href="./about.html">ABOUT US</a>
+            <a class="nav-link" href="./index.html">HOME</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">ABOUT US <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">EVENTS</a>
@@ -57,15 +57,40 @@
         </ul>
       </div>
     </nav>
-    
-    <div class="outer">
-      <div class="middle">
-        <div class="inner">
-          <h1>Welcome to Imperial College esports</h1>          
-          <p>Once upon a midnight dreary...</p>
+        
+    <div class="container">
+      <div class="row">
+        <div class="offset-md-2 col-md-8">
+          <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+            
+            <!-- Carousel Slides / Quotes -->
+            <div class="carousel-inner">
+            
+              <!-- Quote 1 -->
+              <div class="item active">
+                <!-- <blockquote> -->
+                  <div class="row mx-auto">
+                    <div class="col-sm-3 text-center">
+                      <img class="rounded-circle" src="http://www.reactiongifs.com/r/overbite.gif" style="width: 100px;height:100px;">
+                    </div>
+                    <div class="col-sm-9">
+                        <blockquote class="blockquote text-center">
+                            <p class="mb-0"> This uni is full of boosted people, care to join?</p>
+                            <footer class="blockquote-footer">Daniel Ko, <cite>President</cite></footer>
+                          </blockquote>
+                      <!-- <p>This uni is full of boosted people, care to join? </p> -->
+                      <!-- <small class="font-italic">Daniel Ko, President</small> -->
+                    </div>
+                  </div>
+                <!-- </blockquote> -->
+              </div>
+            </div>
+          </div>                          
         </div>
       </div>
     </div>
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
