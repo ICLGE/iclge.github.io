@@ -10,16 +10,16 @@
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link rel="stylesheet" href="styles/stylesheet.css">
+    <link rel="stylesheet" href="../styles/stylesheet.css">
 
     <title>Imperial eSports Society</title>
   </head>
-  <body id="main_page">
+  <body id="about_page">
 
     <!-- Navbar -->
     <nav class="navbar fixed-top transparent navbar-inverse navbar-expand-lg navbar-dark">
       <a class="navbar-brand" href="#">
-          <img src="./img/img-logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+          <img src="../img/img-logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
         IC ESPORTS
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,27 +28,27 @@
     
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="./index.html">HOME <span class="sr-only">(current)</span></a>
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./about.html">ABOUT US</a>
+            <a class="nav-link" href="../about.html">ABOUT US</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">EVENTS</a>
           </li>
-          <li class="nav-item dropdown">
+          <li class="nav-item active dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              GAMES
+              GAMES <span class="sr-only">(current)</span>
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="./games/league.html">LEAGUE OF LEGENDS</a>
-              <a class="dropdown-item" href="./games/overwatch.html">OVERWATCH</a>
-              <a class="dropdown-item" href="./games/csgo.html">CS:GO</a>
-              <a class="dropdown-item" href="./games/dota.html">DOTA 2</a>
-              <a class="dropdown-item" href="./games/hearthstone.html">HEARTHSTONE</a>
-              <a class="dropdown-item" href="./games/starcraft.html">STARCRAFT 2</a>
-              <a class="dropdown-item" href="./games/rocketleague.html">ROCKET LEAGUE</a>
+              <a class="dropdown-item" href="./league.html">LEAGUE OF LEGENDS</a>
+              <a class="dropdown-item" href="./overwatch.html">OVERWATCH</a>
+              <a class="dropdown-item" href="./csgo.html">CS:GO</a>
+              <a class="dropdown-item" href="./dota.html">DOTA 2</a>
+              <a class="dropdown-item" href="./hearthstone.html">HEARTHSTONE</a>
+              <a class="dropdown-item" href="./starcraft.html">STARCRAFT 2</a>
+              <a class="dropdown-item" href="./rocketleague.html">ROCKET LEAGUE</a>
             </div>
           </li>
           <li class="nav-item">
@@ -57,15 +57,37 @@
         </ul>
       </div>
     </nav>
-    
-    <div class="outer">
-      <div class="middle">
-        <div class="inner">
-          <h1 style="font-size: 56px;">Welcome to Imperial College esports</h1>          
-          <p>Once upon a midnight dreary...</p>
+        
+    <div class="container">
+      <div class="row">
+        <div class="offset-md-2 col-md-8">
+          <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+            
+            <!-- Wrapper -->
+            <div class="carousel-inner">
+            
+              <!-- Quote  -->
+              <div class="item active">
+                  <div class="row mx-auto">
+                    <div class="col-sm-3 text-center">
+                      <img class="rounded-circle" src="http://www.reactiongifs.com/r/overbite.gif" style="width: 100px;height:100px;">
+                    </div>
+                    <div class="col-sm-9">
+                      <blockquote class="blockquote text-center">
+                        <p class="mb-0"> This uni is full of boosted people, care to join?</p>
+                        <footer class="blockquote-footer" style="color: rgb(180, 180, 180);">Hayato Murata, <cite>Head of DOTA</cite></footer>
+                      </blockquote>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>                          
         </div>
       </div>
     </div>
+  </br>
+    <h2 class="text-center h1">DOTA</h2>
+    <p> We are all boosted, join us and have fun! </p> 
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
