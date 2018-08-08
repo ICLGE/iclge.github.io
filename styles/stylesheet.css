@@ -21,9 +21,10 @@ body {
 /* Need to add padding for the content to be displayed below navbar */
 #about_page {
   padding-top: 70px; 
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
   /* overflow: hidden; */
+  padding-bottom: 70px;
 }
 
 p {
@@ -189,7 +190,9 @@ section .section-title {
 
 /* End of Members */
 
-
+div.indent {
+  text-indent: 2em;
+}
 
 /**
   MEDIA QUERIES
