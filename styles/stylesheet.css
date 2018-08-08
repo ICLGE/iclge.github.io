@@ -18,7 +18,18 @@ body {
   overflow: hidden;
 }
 
-p {font-size: 16px;}
+/* Need to add padding for the content to be displayed below navbar */
+#about_page {
+  padding-top: 70px; 
+  margin-left: 15%;
+  margin-right: 15%;
+  /* overflow: hidden; */
+  padding-bottom: 70px;
+}
+
+p {
+  font-size: 18px;
+}
 
 /* Navbar transparent*/
 .navbar.transparent.navbar-inverse {
@@ -109,6 +120,96 @@ a:active {
   color: #f41e1e;
   text-decoration: none;
 }
+
+
+
+/* carousel */
+#quote-carousel 
+{
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+  border-radius: 10px;
+  border: 2px solid white;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#quote-carousel img
+{
+  width: 250px;
+  height: 100px
+}
+/* End carousel */
+
+.item blockquote {
+    border-left: none; 
+    margin: 0;
+}
+
+.item blockquote img {
+    margin-bottom: 10px;
+}
+
+
+/* Members */
+
+section .section-title {
+  text-align: center;
+  color: white;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
+#team .card {
+  border: none;
+  background: #ffffff;
+  color: #0A1128;
+}
+
+.frontside {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 30px;
+}
+
+.frontside .card,
+.backside .card {
+  /* min-height: 312px; */
+  min-height: 260px; 
+}
+
+.frontside .card .card-title,
+.backside .card .card-title {
+  color: #194885 !important;
+}
+
+.frontside .card .card-body img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+/* End of Members */
+
+div.indent {
+  text-indent: 2em;
+}
+
+/**
+  MEDIA QUERIES
+*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #quote-carousel 
+    {
+      margin-bottom: 0;
+      padding: 0 40px 30px 40px;
+    }
+    
+}
+
+
+
 /* Side scaling */
 .row.content {height: 150px}
 
