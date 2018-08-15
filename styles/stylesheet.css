@@ -201,7 +201,9 @@ section .section-title {
 /* End of Members */
 
 div.indent {
-  text-indent: 2em;
+  text-indent: 0em;
+  /* text-align: justify;
+  text-justify: inter-word; */
 }
 
 /* #facebook_link {
