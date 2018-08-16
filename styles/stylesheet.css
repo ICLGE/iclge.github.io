@@ -220,9 +220,32 @@ div.indent {
   /* color: #deeaee; */
 }
 
+.twitter-timeline {
+  /* overflow: scroll; */
+} 
+
+#twitter-widget-0 {
+  height: 100% !important;
+  width: 100% !important;
+  /* overflow: scroll; */
+}
+
+.twitter-container {
+  height: 50vh;
+  width: 40vw;
+  /* background-color: red; */
+  margin: 0 auto;
+}
+
 /**
   MEDIA QUERIES
 */
+
+@media screen and (max-width: 999px) {
+  .twitter-container {
+    width: 70vw;
+  }
+}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
