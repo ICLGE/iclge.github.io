@@ -225,12 +225,6 @@ div.indent {
   height: 100% !important;
 } 
 
-#twitter-widget-0 {
-  height: 100% !important;
-  width: 100% !important;
-  /* overflow: scroll; */
-}
-
 .twitter-container {
   height: 50vh;
   width: 40vw;
