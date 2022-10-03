@@ -222,6 +222,7 @@ div.indent {
 
 .twitter-timeline {
   /* overflow: scroll; */
+  height: 100% !important;
 } 
 
 #twitter-widget-0 {
